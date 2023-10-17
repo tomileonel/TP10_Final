@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <h1>Gato Beinvenido a Series</h1>
+    <h4>La mejor informacion de tus series favoritas.</h4>
+
+  @foreach (var item in ViewBag.Series)
+  {
+      <div class="card" style="width: 18rem;">
+      <img src="@item.ImagenSerie" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">@item.Nombre</h5>
+          <a href="#" class="btn btn-primary"  data-bs-target="#Temporadas" data-bs-toggle="modal" onclick="Temporada(@item.IdSerie)">Temporadas</a>
+          <a href="#" class="btn btn-primary"  data-bs-target="#Actores" data-bs-toggle="modal" onclick="Actores(@item.IdSerie)">Actores </a>
+          <a href="#" class="btn btn-primary"  data-bs-target="#MasInfo" data-bs-toggle="modal" onclick="MasInfo(@item.IdSerie)">Mas info</a>
+      </div>
+    </div>
+
+  }
+@* Poner bien los id de los models *@
+<!-- Modal -->
+<div class="modal fade" id="Temporadas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"> 
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Temporadas</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div id="Temporadas1"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+
+        <!-- Modal -->
+
+
+
+
