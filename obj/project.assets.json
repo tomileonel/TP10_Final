@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net7.0": {
-      "Dapper/2.1.11": {
+      "Dapper/2.1.15": {
         "type": "package",
         "compile": {
           "lib/net5.0/Dapper.dll": {
@@ -163,15 +163,15 @@
     }
   },
   "libraries": {
-    "Dapper/2.1.11": {
-      "sha512": "4S2ysi5sxGID6TiAkNpAu4eqkGU1gZjOJ+UAygIdkWFEAX02S8NwUuUzqkqbHL9FTRgimwbz99xte2luMCm6iw==",
+    "Dapper/2.1.15": {
+      "sha512": "1aWSAosZymEM+mRwfrXteRIN74/JTUjqj9B/KqEbanH6vfUKy9D9cemRN0q1ZOEfSB7d1PpFTpVOCbf2Uv70Og==",
       "type": "package",
-      "path": "dapper/2.1.11",
+      "path": "dapper/2.1.15",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Dapper.png",
-        "dapper.2.1.11.nupkg.sha512",
+        "dapper.2.1.15.nupkg.sha512",
         "dapper.nuspec",
         "lib/net461/Dapper.dll",
         "lib/net461/Dapper.xml",
@@ -498,7 +498,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "dapper >= 2.1.11",
+      "dapper >= 2.1.15",
       "system.data.sqlclient >= 4.8.5"
     ]
   },
@@ -509,11 +509,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\47349708\\Downloads\\a\\TP10_Final\\TP10_Final.csproj",
+      "projectUniqueName": "C:\\Users\\47349708\\Downloads\\Nueva carpeta\\TP10_Final\\TP10_Final.csproj",
       "projectName": "TP10_Final",
-      "projectPath": "C:\\Users\\47349708\\Downloads\\a\\TP10_Final\\TP10_Final.csproj",
+      "projectPath": "C:\\Users\\47349708\\Downloads\\Nueva carpeta\\TP10_Final\\TP10_Final.csproj",
       "packagesPath": "C:\\Users\\47349708\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\47349708\\Downloads\\a\\TP10_Final\\obj\\",
+      "outputPath": "C:\\Users\\47349708\\Downloads\\Nueva carpeta\\TP10_Final\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -548,7 +548,7 @@
         "dependencies": {
           "dapper": {
             "target": "Package",
-            "version": "[2.1.11, )"
+            "version": "[2.1.15, )"
           },
           "system.data.sqlclient": {
             "target": "Package",

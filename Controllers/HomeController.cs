@@ -23,6 +23,15 @@ public class HomeController : Controller
         return BD.ObtenerTemporadasSerie(IdSerie);
     }
 
+        public List<string> ObtenerActoresSerieAjax(int IdSerie){
+        return BD.ObtenerActoresSerie(IdSerie);
+    }
+
+    public Series ObtenerMasInfo(int IdSerie){
+        return BD.ObtenerInfoSerie(IdSerie);
+    }
+
+
 
     public IActionResult Privacy()
     {

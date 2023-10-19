@@ -20,3 +20,10 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.centrar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
