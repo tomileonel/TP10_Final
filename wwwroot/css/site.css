@@ -18,6 +18,7 @@ html {
 }
 
 body {
+  margin-top: 50px;
   margin-bottom: 60px;
 }
 
@@ -26,4 +27,23 @@ body {
   flex-direction: row;
   justify-content: space-between;
 
+}
+
+
+.centrado img{
+  max-width: 400px;
+  
+}
+
+.centrado{
+  margin: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+
+.centrado h4{
+  color:#258cfb;
 }
